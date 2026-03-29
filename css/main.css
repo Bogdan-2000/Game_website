@@ -541,6 +541,9 @@ header nav ul li.btn a:hover,
 }
 .hero--video {
   margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
 }
 .hero--video .hero--text .hero--block .block {
   display: flex;
@@ -549,11 +552,6 @@ header nav ul li.btn a:hover,
 .hero--video .hero--text > p {
   margin-top: 2%;
   margin-bottom: 3%;
-}
-.hero--video {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
 }
 .hero--video .hero--text .hero--block .block .block--text {
   margin-left: 2%;
